@@ -1,0 +1,17 @@
+# Git
+alias gpom='git pull origin master'
+alias gmo='git merge origin'
+alias gc='git checkout'
+alias gs='git status'
+alias gcm='git commit -m'
+alias ga='git add'
+alias gb='git branch'
+alias gf='git fetch'
+alias gp='git pull'
+alias gr='git restore'
+alias push='git push origin'
+alias pull='git pull origin'
+alias stash='git stash'
+alias sapply='git stash apply'
+alias forcep='git commit --amend --no-edit && git push origin $(git rev-parse --abbrev-ref HEAD) -f'
+
