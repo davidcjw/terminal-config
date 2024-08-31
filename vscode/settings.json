@@ -1,0 +1,20 @@
+{
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.fontLigatures": "true",
+    "editor.fontFamily": "Fira Code",
+    "explorer.confirmDelete": false,
+    "go.gopath": "/usr/local/Cellar/go@1.21/1.21.7",
+    "workbench.startupEditor": "none",
+    "go.toolsManagement.autoUpdate": true,
+    "explorer.confirmDragAndDrop": false,
+    "go.testFlags": [
+        "-count=1" // don't use cache
+    ],
+    "go.testTimeout": "20s",
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path-mac": "/Users/SP12923/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.crd-code-completion": "disabled"
+    },
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "makefile.configureOnOpen": true
+}
