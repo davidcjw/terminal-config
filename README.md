@@ -60,6 +60,8 @@ rangav.vscode-thunder-client
 golang.go
 ```
 
+To be able to view ligatures, also install Fira Code via brew: `brew install font-fira-code`.
+
 ## tmux
 
 For tmux, seems like copying the entire config (`tmux/.tmux.conf`) into the `$HOME` directory gave me some issues the previous time I tried it.

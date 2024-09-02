@@ -4,7 +4,7 @@ ms-python.vscode-pylance
 ms-python.python
 ms-python.debugpy
 
-
+fosshaas.fontsize-shortcuts
 catppuccin.catppuccin-vsc
 equinusocio.vsc-material-theme-icons
 vscodevim.vim
