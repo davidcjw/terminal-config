@@ -1,19 +1,20 @@
 # terminal-config
 Config for terminal, including neovim, tmux, aliases, etc
 
+## Dependencies
+
+All Homebrew CLI tools and casks (ripgrep, cmake, nvm, node, fzf, neovim, tmux,
+Docker Desktop, Fira Code, etc.) are declared in the [`Brewfile`](Brewfile).
+Install them all in one step from the repo root:
+
+```bash
+brew bundle --file=Brewfile
+```
+
+Exception: install [Golang](https://go.dev/doc/install) via the official
+installer (for the Go LSP) — it is not managed through the Brewfile.
+
 ## Neovim
-
-
-**Dependencies**:
-
-Install via brew:
-
-- ripgrep
-- cmake
-- nvm and node
-- fzf
-
-Install [Golang](https://go.dev/doc/install) (for Go LSP).
 
 Setup for Neovim lives under the `nvim` directory and all contents within should be placed in `~/.config/nvim`.
 
@@ -60,7 +61,7 @@ rangav.vscode-thunder-client
 golang.go
 ```
 
-To be able to view ligatures, also install Fira Code via brew: `brew install font-fira-code`.
+To be able to view ligatures, install Fira Code — it is included in the [`Brewfile`](Brewfile) (`brew bundle`), or install it directly via `brew install font-fira-code`.
 
 ## tmux
 
